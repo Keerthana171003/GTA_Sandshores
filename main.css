@@ -1,0 +1,79 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: url('https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+    font-family:'Quicksand';
+}
+
+.content {
+    background-color: rgba(10, 0, 0, 0.85); 
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family:'Papyrus', fantasy;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+  }
+
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+  }
+  
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 0 50px 60px 0 rgba(249, 248, 248, 0.24),0 17px 50px 0 rgba(255, 255, 255, 0.19);
+  }
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 0 50px 60px 0 rgba(244, 243, 243, 0.24),0 17px 50px 0 rgba(247, 244, 244, 0.19);
+  }
+
+  a {
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover {
+    color: black; 
+}
